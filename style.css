@@ -1,3 +1,6 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
 
 .main-container {
     display: flex;
@@ -8,11 +11,33 @@
     background-color: #1F2937;
     width: auto;
     height: 500px;
+    color: white;
 }
 
 img {
     width: 400px;
     height: auto;
+}
+
+.left, .right {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+
 }
 
 .container-two {
@@ -41,6 +66,5 @@ img {
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
     font-size: 14px;
 }
