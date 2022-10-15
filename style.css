@@ -1,6 +1,46 @@
 
-container1 {
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-one {
     background-color: #1F2937;
-    width: 500px;
+    width: auto;
     height: 500px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.container-two {
+    background-color: lightgrey;
+    width: auto;
+    height: 500px;
+}
+
+.container-three {
+    background-color: #1F2937;
+    width: auto;
+    height: 500px;
+}
+
+.container-four {
+    background-color: lightgrey;
+    width: auto;
+    height: 500px;
+}
+
+.container-five {
+    background-color: #1F2937;
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: 14px;
 }
