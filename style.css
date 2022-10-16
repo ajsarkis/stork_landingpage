@@ -1,17 +1,34 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
-.main-container {
+/*.main-container {
     display: flex;
-    flex-direction: column;
+    
 }
+*/
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}    
 
 .container-one {
     background-color: #1F2937;
     width: auto;
     height: 500px;
     color: white;
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 img {
@@ -22,6 +39,10 @@ img {
 .left, .right {
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.links {
+    display: flex;
 }
 
 .logo {
@@ -36,9 +57,14 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    display: flex;
     font-size: 18px;
+    padding: 12px;
 
 }
+
+
+
 
 .container-two {
     background-color: lightgrey;
