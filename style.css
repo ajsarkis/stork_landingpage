@@ -125,17 +125,45 @@ img {
 
 
 .container-three {
-    background-color: #1F2937;
+    background-color: #E5E7EB;
     width: auto;
-    height: 325px;
-    color: white;
+    height: 525px;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
+.container-three > p {
+    max-width: 780px;
+    font-weight: 300;
+}
+
+
+.author {
+    font-size: 26px;
+    /*display: block;
+    text-align: right;
+    */
+} 
+
+
+
+
 .container-four {
-    background-color: lightgrey;
+    background-color: white;
     width: auto;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+
 
 .container-five {
     background-color: #1F2937;
