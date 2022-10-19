@@ -1,27 +1,23 @@
 body {
     font-family: Roboto, sans-serif;
-    
 }
 
 .header {
     display: flex;
     justify-content:space-between;
-    align-items:center;
+    background-color: purple;
 }    
 
 .container-one {
     background-color: #1F2937;
-    width: auto;
     height: 500px;
     color: white;
 }
 
 .hero-title {
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin-top: 150px;
-    margin-bottom: 10px;
 }
 
 .hero-text {
@@ -31,13 +27,13 @@ body {
 
 .hero {
     margin: 100px;
+    background-color: orange;
+    
 }
 
 .app > a {
     padding-left: 0;
 }
-
-
 
 button {
     background-color: #3882F6;
@@ -47,21 +43,19 @@ button {
     font-size: 16px;
     border: none;
 }
-/*
-.image {
-    background-color: pink;
-    width: 425px;
-    
-}
 
-.image > img {
+img.parents {
     width: 400px;
     height: auto;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
+    margin-right: 50px;
 }
-*/
+
+.image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;  
+}
+
 
 .left, .right {
     margin-left: 100px;
@@ -75,6 +69,7 @@ button {
 
 .links {
     display: flex;
+    background-color: green;
 }
 
 li {
@@ -94,7 +89,7 @@ a {
 
 .container-two {
     background-color: white;
-    width: auto;
+    min-width: 700px;
     height: 325px;
     color: #1F2937;
     text-align: center;
@@ -105,7 +100,7 @@ a {
 }
 
 .title {
-    font-size: 36px;
+    font-size: 22px;
     font-weight: bolder;
     margin-top: 30px;
     text-align: center;
@@ -120,7 +115,6 @@ a {
 
 img {
     border-radius: 8px;
-    margin-bottom: 7px;
 }
 
 
@@ -139,37 +133,34 @@ img {
 }
 
 .container-three > p {
-    max-width: 1100px;
+    max-width: 1350px;
     font-weight: 300;
+    margin: 30px;
+    
 }
 
 .author {
     font-size: 24px;
-    /*display: block;
-    text-align: right;
-    */
 } 
 
 
 
 .container-four {
     background-color: white;
-    width: auto;
+   
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-     
 }
 
-div.blue-container {
-    width: 1250px;
+.blue-container {
+    width: 1300px;
     height: 200px;
     border-radius: 8px;
     background-color: #3882F6;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: #F9FAF8;  
 }
@@ -177,7 +168,6 @@ div.blue-container {
 .closing-title {
     color: #F9FAF8;
     font-weight: 700;
-    
     font-size: 24px;
     font-weight: 700;
 }
@@ -186,20 +176,19 @@ div.blue-container {
     font-size: 20px;
 }
 
-.closing-title, .closing-text {
-    
-}
-
 .closing-app {
     background-color: #3882F6;
     color: white;
     border: 2px solid white;
 }
 
+.closing {
+    padding-left: 50px;
+}
 
-
-
-
+a {
+    padding-right: 50px;
+}
 
 .container-five {
     background-color: #1F2937;
