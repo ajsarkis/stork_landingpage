@@ -5,6 +5,7 @@ body {
 .header {
     display: flex;
     justify-content:space-between;
+    align-items: center;
     background-color: purple;
 }    
 
@@ -28,7 +29,13 @@ body {
 .hero {
     margin: 100px;
     background-color: orange;
-    
+    display: flex;  
+    flex-direction: column;
+}
+
+.hero-right {
+    display: flex;
+   justify-content: flex-end;
 }
 
 .app > a {
@@ -46,16 +53,15 @@ button {
 
 img.parents {
     width: 400px;
-    height: auto;
     margin-right: 50px;
 }
 
-.image-wrapper {
-    width: 100%;
+/* .image-wrapper {
     display: flex;
-    justify-content: flex-end;  
+    justify-content: flex-end; 
+    
 }
-
+*/
 
 .left, .right {
     margin-left: 100px;
@@ -96,7 +102,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 60px;
+    margin: 50px 0 50px 50px;
 }
 
 .title {
@@ -117,7 +123,9 @@ img {
     border-radius: 8px;
 }
 
-
+.image-text {
+    padding-top: 10px;
+}
 
 .container-three {
     background-color: #E5E7EB;
@@ -132,7 +140,7 @@ img {
 }
 
 .container-three > p {
-    max-width: 1350px;
+    max-width: 1250px;
     font-weight: 300;
     margin: 30px;
     
